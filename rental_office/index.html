@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>LaLaオフィス：Home</title>
+    <link rel="stylesheet" href="CSS/html5reset-1.6.1.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="CSS/header-footer.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="home" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a id="head" href="index.html"><img src="./images/companylogo.png" alt="会社ロゴ"></a></h1>
+
+            <div class="drawer">
+                <!-- ハンバーガーメニュー部分 -->
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input type="checkbox" id="drawer-check" class="drawer-hidden">
+
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer-check" class="drawer-open"><span></span></label>
+
+                <nav class="drawer-content">
+                    <ul id="main-nav">
+                        <li class="drawer-item"><a href="information.html">information</a>
+                            <ul>
+                                <li><a href="#">NEWS</a></li>
+                                <li><a href="#">施設情報</a></li>
+                                <li><a href="#">コラム</a></li>
+                                <li><a href="#">キャンペーン情報</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item"><a href="about.html">About</a>
+                            <ul>
+                                <li><a href="#">会社概要</a></li>
+                                <li><a href="#">代表挨拶</a></li>
+                                <li><a href="#">沿革</a></li>
+                                <li><a href="#">拠点一覧</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item"><a href="service.html">service</a>
+                            <ul>
+                                <li><a href="#">オプションサービス</a></li>
+                                <li><a href="#">コンシェルジュ付帯サービス</a></li>
+                                <li><a href="#">無料サービス</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item"><a href="price.html">price</a>
+                            <ul>
+                                <li><a href="#">レンタルオフィス</a></li>
+                                <li><a href="#">シェアオフィス</a></li>
+                                <li><a href="#">コワーキングスペース</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item" id=""><a href="preview.html">内見予約</a></li>
+                        <li class="drawer-item"><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--/.drawer-->
+
+        </header>
+
+        <div class="home-content wrapper">
+            <div class="box">
+                <div class="bgImg src1"></div>
+                <div class="bgImg src2"></div>
+                <div class="bgImg src3"></div>
+                <div class="bgImg src4"></div>
+                <div class="triangle"></div>
+                <!--背景上の三角形上-->
+                <div class="triangle2"></div>
+                <!--背景上の三角形下-->
+            </div>
+
+            <h2 class="page-title">Work smarter,<br> not harder</h2>
+            <div id="search-office">
+                <h3><i class="fas fa-search-location"></i>近くのオフィスを検索</h3>
+                <form action="#" method="post">
+                    <div class="form-item">
+                        <label for="prefectures"></label>
+                        <select name="prefectures" id="prefectures">
+                            <option value="">--都道府県を選択--</option>
+                            <option value="Osaka">大阪府</option>
+                            <option value="Hyogo">兵庫県</option>
+                            <option value="Tokyo">東京都</option>
+                            <option value="Kanagawa">神奈川県</option>
+                            <option value="Fukuoka">福岡県</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="city"></label>
+                        <select name="city" id="city">
+                            <option value="">--都市を選択--</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="number"></label>
+                        <select name="number" id="number">
+                            <option value="">--利用人数を選択--</option>
+                            <option value="1">1人</option>
+                            <option value="2-3">2～3人</option>
+                            <option value="4-9">4～9人</option>
+                            <option value="10-">10人以上</option>
+                            <option value="unknown">未定</option>
+                        </select>
+                    </div>
+                    <div class="form-item"><label for="budget"></label>
+                        <select name="budget" id="budget">
+                            <option value="">--予算を選択（月額）--</option>
+                            <option value="15,000yen">～15,000円</option>
+                            <option value="30,000yen">～30,000円</option>
+                            <option value="50,000yen">～50,000円</option>
+                            <option value="100,000yen">～100,000円</option>
+                            <option value="morethan100,000yen">100,000円～</option>
+                        </select>
+                    </div>
+                    <div id="office-submit">
+                        <input type="submit" class="button" value="Search">
+                        <input type="reset" class="button" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="cp_arrows">
+            <a href="#home-vision" class="cp_arrowcontainer">
+                <div class="cp_arrow"></div>
+                <div class="cp_arrow"></div>
+                <div class="cp_arrow"></div>
+            </a>
+        </div>
+        <section class="main-content">
+            <div id="home-vision" class="fade-in">
+                <img src="images/vision.png" alt="ビジネスパーソン">
+                <div id="vision-container">
+                    <h2>Vision</h2>
+                    <div class="subtitle">時代に沿った働き方を</div>
+                    <p>シェアオフィスは働き方改革が叫ばれるなか、
+                        自由な働き方を支えるリーズナブルな貸しオフィスとして重宝されています。
+
+                        また、新型コロナウイルスによってテレワークの普及や、
+                        サテライトオフィスの導入が急速に普及したことで、シェアオフィスのニーズが更に高まりました。<br>
+
+                        中堅・大手企業様をはじめ、個人事業主様、起業家様などそれぞれのニーズがあり。その種類は多岐にわたります。
+
+                        LaLaオフィスはそのようなニーズに最大限応えるべく、より良い労働環境の提供に努めてまいります。</p>
+                    <div id="aboutlink"><a href="about.html">About us<i class="fas fa-arrow-circle-right"></i></a></div>
+                </div>
+            </div>
+
+            <div id="home-service" class="fade-in">
+                <img src="images/service.png" alt="オフィスデスク">
+                <div id="service-container">
+                    <h2>Service</h2>
+                    <div class="subtitle">LaLaオフィスが提供するサービス</div>
+                    <div class="service-items">
+                        <div class="service-item">
+                            <img src="./images/service-icons/option.png" alt="会議室">
+                            <div>
+                                <h3>オプションサービス</h3>
+                                <p>本契約のオフィス以外に、有料でコワーキングスペースと会議室をご利用いただくことができます。</p>
+                            </div>
+
+                            <a href="">オプションサービスについて</a>
+                        </div>
+                        <div class="service-item">
+                            <img src="./images/service-icons/concierge.png" alt="コンシェルジュ">
+                            <div>
+                                <h3>コンシェルジュサービス</h3>
+                                <p>当社のコンシェルジュが駐在しているオフィスのみ、付帯するサービスです。（一部有料）</p>
+                            </div>
+                            <a href="">コンシェルジュサービスについて</a>
+                        </div>
+                        <div class="service-item">
+                            <img src="./images/service-icons/freeicon.png" alt="無料">
+                            <div>
+                                <h3>無料サービス</h3>
+                                <p>当社のオフィスをご契約の方全員が無料で受けられるサービスです。</p>
+                            </div>
+                            <a href="">無料サービスサービスについて</a>
+                        </div>
+                    </div>
+                    <!--/.service-items-->
+                </div>
+            </div>
+            <!--/#home-service-->
+
+            <div id="home-price" class="fade-in">
+                <img src="images/price.png" alt="お金がない女性">
+                <div id="price-container">
+                    <h2>Price</h2>
+                    <div class="subtitle">料金プラン</div>
+                    <p>月単位から、年単位でのプランをご用意しております。
+                        また、法人様と個人様の両方に向けたプランもご用意しております。
+
+                        詳しい料金内容は以下のリンクよりご覧いただくか、フォームよりお気軽にお問い合わせください。
+                    </p>
+                    <div id="pricelink"><a href="price.html">料金プラン<i class="fas fa-arrow-circle-right"></i></a></div>
+                </div>
+            </div>
+
+            <div id="home-benefit" class="fade-in">
+                <img src="images/benefit.png" alt="喜ぶ男女">
+                <div class="benefit-container">
+                    <h2>Benefits</h2>
+                    <div class="subtitle">LaLaオフィスの導入事例とその効果</div>
+                    <div class="cases">
+                        <div class="case">
+                            <img src="images/man1.png" alt="男性画像">
+                            <h3>製造業A社</h3>
+                            <p>会社規模は小さいにも関わらず、都心部に営業所を設けられた。</p>
+                        </div>
+                        <div class="case">
+                            <img src="images/woman1.png" alt="女性画像">
+                            <h3>サービス業B社</h3>
+                            <p>働き方改革ををスタートさせることができた。</p>
+                        </div>
+                        <div class="case">
+                            <img src="images/man2.png" alt="男性画像">
+                            <h3>学生起業家Cさん</h3>
+                            <p>個人の安いプランがあるので、大学に在学中でも事業を始めることができた。</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.benefit-container-->
+            </div>
+            <!--/#home-benefit-->
+
+            <!--立地条件について-->
+            <div id="home-location" class="fade-in">
+                <img src="images/location.png" alt="通勤途中の人">
+                <div>
+                    <h2>Location</h2>
+                    <div class="subtitle">好立地のオフィスを多数取り揃えております。</div>
+                    <div class="tabs">
+                        <input id="Osaka" type="radio" name="tab_item" checked>
+                        <label class="tab_item" for="Osaka">大阪</label>
+                        <input id="Kobe" type="radio" name="tab_item">
+                        <label class="tab_item" for="Kobe">神戸</label>
+                        <input id="Tokyo" type="radio" name="tab_item">
+                        <label class="tab_item" for="Tokyo">東京</label>
+                        <input id="Yokohama" type="radio" name="tab_item">
+                        <label class="tab_item" for="Yokohama">神奈川</label>
+                        <input id="Nagoya" type="radio" name="tab_item">
+                        <label class="tab_item" for="Nagoya">名古屋</label>
+                        <div class="tab_content" id="Osaka_content">
+                            <div class="slider">
+                                <div class="slider__content"><img src="images/home-locations-images/osaka1.jpg" alt="大阪"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/osaka2.jpg" alt="大阪"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/osaka3.jpg" alt="大高"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/osaka4.jpg" alt="大阪"></div>
+                            </div>
+                        </div>
+                        <div class="tab_content" id="Kobe_content">
+                            <div class="slider">
+                                <div class="slider__content"><img src="images/home-locations-images/kobe1.jpg" alt="神戸"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/kobe2.jpg" alt="神戸"></div>
+                            </div>
+                        </div>
+                        <div class="tab_content" id="Tokyo_content">
+                            <div class="slider">
+                                <div class="slider__content"><img src="images/home-locations-images/tokyo1.jpg" alt="東京"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/tokyo2.jpg" alt="東京"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/tokyo3.jpg" alt="東京"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/tokyo4.jpg" alt="東京"></div>
+                            </div>
+                        </div>
+                        <div class="tab_content" id="Yokohama_content">
+                            <div class="slider">
+                                <div class="slider__content"><img src="images/home-locations-images/yokohama1.jpg" alt="横浜"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/yokohama2.jpg" alt="横浜"></div>
+                            </div>
+                        </div>
+                        <div class="tab_content" id="Nagoya_content">
+                            <div class="slider">
+                                <div class="slider__content"><img src="images/home-locations-images/nagoya1.jpg" alt="名古屋"></div>
+                                <div class="slider__content"><img src="images/home-locations-images/nagoya2.jpg" alt="名古屋"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--質問セクション-->
+            <div id="home-question" class="fade-in">
+                <img src="images/question.png" alt="初心者マークを掲げる人">
+                <div>
+                    <h2>FAQ</h2>
+                    <div class="subtitle">よくあるご質問</div>
+                    <div class="cp_qa">
+                        <div class="cp_actab">
+                            <input id="cp_tabfour031" type="checkbox" name="tabs">
+                            <label for="cp_tabfour031">契約プランは？</label>
+                            <div class="cp_actab-content">
+                                <p>レンタルオフィスとシェアオフィスの2つのメインプランをご用意しています。
+                                    加えてコワーキングスペースや会議室の有料オプションもございます。</p>
+                            </div>
+                        </div>
+                        <div class="cp_actab">
+                            <input id="cp_tabfour032" type="checkbox" name="tabs">
+                            <label for="cp_tabfour032">申し込み方法は？</label>
+                            <div class="cp_actab-content">
+                                <p>当社では、ご契約前に1度オフィスを内見していただき、その後ご入居いただくという形をとらせていただいております。その為内見予約フォームより、ご希望の会員プラン、法人・個人を選択のうえ、入力・お手続きをお願いします。</p>
+                            </div>
+                        </div>
+                        <div class="cp_actab">
+                            <input id="cp_tabfour033" type="checkbox" name="tabs">
+                            <label for="cp_tabfour033">契約時に必要な書類は？</label>
+                            <div class="cp_actab-content">
+                                <div>個人契約の場合</div>住民票、印鑑証明書　※発行日より3か月以内
+                                <div>法人契約の場合</div>
+                                <p>履歴事項全部証明書（登記簿謄本）、印鑑証明書　※発行3か月以内</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="wrapper">
+            <a href="index.html"><img src="./images/companylogo.png" alt="会社ロゴ"></a>
+            <ul class="footer-menu">
+                <li>
+                    <h4><a href="information.html">Infomation</a></h4>
+                    <ul>
+                        <li>NEWS</li>
+                        <li>施設情報</li>
+                        <li>コラム</li>
+                        <li>キャンペーン情報</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4><a href="about.html">About</a></h4>
+                    <ul>
+                        <li>会社概要</li>
+                        <li>沿革</li>
+                        <li>拠点一覧</li>
+                        <li><a href="recruit.html">採用情報</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4><a href="service.html">Service</a></h4>
+                    <ul>
+                        <li>オプションサービス</li>
+                        <li>コンシェルジュサービス</li>
+                        <li>無料サービス</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4><a href="price.html">Price</a></h4>
+                    <ul>
+                        <li>レンタルオフィス</li>
+                        <li>シェアオフィス</li>
+                        <li>コワーキングスペース</li>
+                        <li>会議室</li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <div class="footer-sub">
+                <p><a href="policy.html">プライバシーポリシー</a></p>
+                <p><a href="TOS.html">利用規約</a></p>
+                <p><a href="contact.html">お問い合わせ</a></p>
+            </div>
+            <p><small>&copy;2019 LaLa Office All Rights Reserved.</small></p>
+        </div>
+    </footer>
+
+    <!--ソーシャルリンクボタン-->
+    <div class="cp_snslink11">
+        <nav class="cp_link_list">
+            <input type="checkbox" href="#" class="cp_open" id="cp_toggle03" />
+            <label class="cp_open_btn" for="cp_toggle03">
+                <i class="fas fa-share-alt share-icon"></i>
+            </label>
+            <a class="cp_link facebook" href="#"><i class="fab fa-facebook-f fa-1x"></i></a>
+            <a class="cp_link twitter" href="#"><i class="fab fa-twitter fa-1x"></i></a>
+            <a class="cp_link google" href="#"><i class="fab fa-google-plus-g fa-1x"></i></a>
+            <a class="cp_link instagram" href="#"><i class="fab fa-instagram fa-1x"></i></a>
+        </nav>
+    </div>
+
+    <!--Topに戻るボタン-->
+    <div id="scrolltop"><img src="images/arrow.png" alt="矢印"></div>
+
+
+
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script>
+        'use strict';
+
+        //フェードイン
+        let fadeInTarget = document.querySelectorAll('.fade-in');
+        window.addEventListener('scroll', function() {
+            for (let i = 0; i < fadeInTarget.length; i++) {
+                const rect = fadeInTarget[i].getBoundingClientRect().top;
+            
+                const scroll = window.pageYOffset || document.documentElement.scrollTop;
+            
+                const offset = rect + scroll;
+            
+                const windowHeight = window.innerHeight; // 現在のブラウザの高さ
+            
+                if (scroll > offset - windowHeight + 250) {
+                    fadeInTarget[i].classList.add('scroll-in');
+                }
+            }
+        });
+
+        //TOPに戻るボタンん
+        const PageTopBtn = document.getElementById('scrolltop');
+        PageTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+</body></html>

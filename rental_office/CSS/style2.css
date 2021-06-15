@@ -1,0 +1,792 @@
+@charset "utf-8";
+
+/*--------------ホームのメインコンテンツ----------------*/
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main section {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*メインコンテンツの配置*/
+#main-content {}
+
+/*---------------Informationのページ---------------*/
+#info {
+    background-image: url(https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#info .page-title {
+    text-align: left;
+    padding-top: 140px;
+    margin-left: 5%;
+    font-family: font-family: 'Lato', sans-serif;
+}
+
+/*サイドバー*/
+aside {
+    width: 22%;
+}
+
+/*記事メイン*/
+article {
+    width: 74%;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem 2rem 1.5rem 180px;
+    margin: 40px 0 10px;
+    border-top: 3px solid #000;
+}
+
+.post-title:before {
+    position: absolute;
+    top: -150%;
+    left: -100px;
+    width: 250px;
+    height: 300%;
+    content: '';
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    background: #ffd500;
+}
+
+.post-title span {
+    font-size: 1.2rem;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    padding-top: 15px;
+    padding-left: 3px;
+    color: #333;
+}
+
+
+article img {
+    margin-bottom: 1.5rem;
+
+}
+
+article p {
+    margin-bottom: 1.5rem;
+}
+
+/*サイドバー部分*/
+.sub-title {
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-left: 5px solid #ffd500;
+    border-bottom: 2px solid #333;
+    font-weight: normal;
+}
+
+aside p {
+    padding: 12px 10px;
+}
+
+aside h3 {
+    margin: 8px 0;
+}
+
+.mail-magazine {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mail-magazine div {
+    font-size: .9rem;
+}
+.mail-magazine input {
+    width: 30%;
+    height: 20px;
+}
+.mail-magazine button {
+    width: 10%;
+    height: px;
+    background: #ffd500;
+    font-size: 1rem;
+}
+
+
+/*レスポンシブ対応*/
+@media (max-width: 600px) {
+    #info .page-title {
+        font-size: 3.5rem;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .info-content {
+        flex-direction: column;
+    }
+
+    article,
+    aside {
+        width: 100%;
+    }
+
+    #info .page-title {
+        margin-top: 30px;
+    }
+
+    aside {
+        margin-top: 60px;
+    }
+
+    .post-info {
+        margin-bottom: 30px;
+    }
+
+    .post-date {
+        width: 70px;
+    }
+
+    .post-date span {
+        font-size: 0.875rem;
+        margin-top: 2px;
+    }
+
+    .post-cat {
+        font-size: 0.875rem;
+        padding-top: 10px;
+    }
+
+    .post-title {
+        font-size: 1.375rem;
+    }
+
+    .post-title,
+    .post-cat {
+        margin-left: 80px;
+    }
+}
+
+/*-----------ABOUTのページ-----------------------------------*/
+/*about.htmlの見出し部分*/
+#about {
+    background-image: url(../images/background/architecture-828596_1280.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#about .page-title {
+    text-align: left;
+    padding-top: 140px;
+    margin-left: 5%;
+    color: #fff;
+}
+#about .page-title::first-letter {
+    color: #fff;
+    text-shadow: 8px -8px 1px #ffd500;
+}
+
+.page-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.lala-intro h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.lala-intro p {
+    line-height: 1.2;
+}
+
+.company-details {
+    margin-top: 50px;
+}
+
+.detail-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 40px 40px;
+}
+
+.content {
+    padding: 30px;
+    font-size: 1.25rem;
+    border: 2px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    background: #ffd500;
+    transition: .2s;
+}
+
+.content:hover {
+    background: #48aaff;
+}
+
+.content p {
+    font-size: 1.125rem;
+}
+
+
+.about-content {
+    margin-bottom: 50px;
+}
+
+/*本社アクセス情報*/
+#location h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+#location {
+    padding: 4%;
+}
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.location-info {
+    width: 30%;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map {
+    width: 65%;
+}
+/*iframe*/
+iframe {
+    width: 100%;
+}
+
+
+/*Aboutのレスポンシブ対応*/
+@media (max-width: 600px) {
+    #about .page-title {
+        font-size: 3.5rem;
+        text-align: center;
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    /*地図*/
+    #location .wrapper {
+        flex-direction: column;
+    }
+    .location-info,
+    .location-map {
+        width: 100%;
+    }
+}
+/*-----------------サービスのページ------------------*/
+/*service.htmlの見出し部分*/
+#service {
+    background-image: url(../images/service-bg.jpg);
+    background-position: 20% 55%;
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#service .page-title {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fafafa;
+    margin-left: 5%;
+}
+
+#service .page-title::first-letter {
+    color: #fafafa;
+    text-shadow: 10px -8px 1px #ffd500;
+}
+
+
+.service-content h3 {
+    font-size: 1.25rem;
+    text-decoration: underline
+}
+
+/*初期費用の目安*/
+#cost {
+    margin: 5% 0;
+    line-height: 25px;
+}
+
+#shoki {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center
+}
+
+.simulation {
+    border: 2px solid #000;
+    padding: 1.5rem;
+}
+
+#hiyou {
+    background-color: #48aaff;
+    color: #fafafa;
+}
+
+#service-detail {
+    line-height: 25px;
+}
+
+/*サービス全体*/
+#all-service {
+    border-radius: 20px;
+    padding: 1rem;
+    background: #ffd500;
+    margin: 50px 0;
+}
+
+#all-service h3 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+
+/*オプションサービスの説明セクション*/
+.option-service {
+    text-align: center
+}
+
+.option-service p {
+    font-size: 1rem;
+    color: #48aaff;
+    font-weight: bold;
+}
+
+#option a {
+    font-size: 1rem;
+    background: #ffd500;
+    border-radius: 10px;
+    padding: 5px;
+    transition: .2s;
+}
+
+#option a:hover {
+    background: #48aaff;
+}
+
+.optionlink {
+    text-align: right;
+
+}
+
+#option {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.option {
+    max-width: 400px;
+    max-height: 450px;
+    border: 2px solid #000;
+    background: ;
+    margin: 0 25px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #fafafa;
+}
+
+/*.option img {
+    max-width: 400px;
+    max-height: 350px;
+}*/
+
+/*コワーキングスペースのオプション説明*/
+.imgWrap {
+    overflow: hidden;
+}
+
+.imgEff {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transition-duration: 0.3s;
+}
+
+.imgEff:hover {
+    transform: scale(1.1);
+}
+
+.imgEff:before {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    transition-duration: 0.3s;
+    opacity: 0;
+    /* 見えないように透過しておく */
+    content: "コワーキングスペース";
+    /* 表示するテキスト */
+    background: radial-gradient(rgba(0, 0, 0, 0.6), #000000);
+    /* けっこう暗くしないと文字が見にくいので注意 */
+    display: flex;
+    /* 文字の中央配置 */
+    justify-content: center;
+    /* 文字の中央配置 */
+    align-items: center;
+    /* 文字の中央配置 */
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 0 0 2px #000;
+    filter: blur(4px);
+    /* ブラー効果 */
+}
+
+.imgEff:hover:before {
+    opacity: 1;
+    /* マウスオーバーで可視化 */
+}
+
+.option .imgEff:hover:before {
+    transform: scale(1.3);
+    /* 文字の拡大率 */
+    filter: blur(0);
+    /* ブラー効果を解除 */
+}
+
+/*会議室オプションの説明*/
+.imgWrap2 {
+    overflow: hidden;
+}
+
+.imgEff2 {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    transition-duration: 0.3s;
+}
+
+.imgEff2:hover {
+    transform: scale(1.1);
+}
+
+.imgEff2:before {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    transition-duration: 0.3s;
+    opacity: 0;
+    /* 見えないように透過しておく */
+    content: "会議室";
+    /* 表示するテキスト */
+    background: radial-gradient(rgba(0, 0, 0, 0.6), #000000);
+    /* けっこう暗くしないと文字が見にくいので注意 */
+    display: flex;
+    /* 文字の中央配置 */
+    justify-content: center;
+    /* 文字の中央配置 */
+    align-items: center;
+    /* 文字の中央配置 */
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 0 0 2px #000;
+    filter: blur(4px);
+    /* ブラー効果 */
+}
+
+.imgEff2:hover:before {
+    opacity: 1;
+    /* マウスオーバーで可視化 */
+}
+
+.option .imgEff2:hover:before {
+    transform: scale(1.3);
+    /* 文字の拡大率 */
+    filter: blur(0);
+    /* ブラー効果を解除 */
+}
+
+
+/*コンシェルジュサービスの説明セクション*/
+.concierge-service {
+    text-align: center;
+}
+
+.concierge-service p {
+    font-size: 1rem;
+    color: #48aaff;
+    font-weight: bold;
+}
+
+#concierge {
+    /*サービスをグリッドで作る*/
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 30px 50px;
+    margin: 30px 0;
+}
+
+.con {
+    background: ;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    background: #fafafa;
+}
+
+/*無料サービスの説明セクション*/
+.free-service {
+    text-align: center;
+}
+
+.free-service h3 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.free-service p {
+    font-size: 1rem;
+    color: #48aaff;
+    font-weight: bold;
+}
+
+#free {
+    /*サービスをグリッドで作る*/
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 30px 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+.tada {
+    background: ;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background: #fafafa;
+}
+
+
+/*--------サービスページのレスポンシブ対応-------------*/
+@media (max-width: 800px) {
+    #service .page-title {
+        font-size: 3.5rem;
+    }
+
+    #all-service h3 {
+        font-size: 1.125rem;
+        text-decoration: underline
+    }
+
+    #option a {
+        font-size: 0.85rem;
+    }
+
+    .option {
+        max-width: 100%;
+        max-height: 550px;
+    }
+
+    .imgEff,
+    .imgEff2 {
+        width: 100%;
+    }
+
+    .imgEff:before,
+    .imgEff2:before {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #cost h3 {
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+
+    .simulation {
+        padding: 1rem;
+    }
+
+    .concierge-service p {
+        font-size: 1rem;
+        color: #48aaff;
+        font-weight: bold;
+    }
+
+    #concierge {
+        /*サービスをグリッドで作る*/
+        font-size: .9rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px 30px;
+        margin: 30px 0;
+    }
+
+    #free {
+        font-size: .9rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px 50px;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .tada {
+        background: ;
+        padding: 20px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        background: #fafafa;
+    }
+}
+
+
+/*---------------------------------料金プランのページ--------------------------------*/
+#price {
+    background-image: url(../images/background/price.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#price .page-title {
+    text-align: left;
+    padding-top: 140px;
+    padding-left: 5%;
+}
+
+.pricing-table h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    padding: 0;
+    width: 850px;
+    table-layout: fixed;
+}
+
+table tr {
+    background-color: #fff;
+    padding: .35em;
+    border: 2px solid #eee;
+}
+
+table tr:last-child {
+    border: none;
+}
+
+table th {
+    padding: 2em;
+    border-right: 2px solid #fff;
+}
+
+table td {
+    padding: 2em .5em;
+    border-right: 2px solid #eee;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+}
+
+table thead tr {
+    background-color: #50535d;
+    color: #fff;
+}
+
+table tbody th {
+    border-right: 2px solid #eee;
+}
+
+th.non {
+    border-right: none;
+}
+
+.txt {
+    text-align: left;
+    font-size: .85em;
+}
+
+.price {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.125em
+}
+
+.price span {
+    font-size: .6em;
+}
+
+.red_bk {
+    background: #FFC20E;
+    color: #333;
+}
+
+.red-txt {
+    color: #e81010;
+}
+
+.btn {
+    background: #FFd500;
+    border: 2px solid #333;
+    color: #333;
+    padding: 1em;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: .8em
+}
+
+.btn:hover {
+    background: #48aaff;
+    border: 2px solid #333;
+    color: #ffd500;
+    transition: .2s;
+}
+
+table .btnarea td {
+    padding: .2em .5em;
+    border-right: none
+}
+
+@media (max-width: 800px) {
+    #price .page-title {
+        font-size: 3.5rem;
+    }
+
+    .pricing-table h2 {
+        font-size: 1.3rem;
+        text-decoration: underline;
+    }
+
+    @media screen and (min-width: 600px) {
+        .wrap {
+            overflow-x: scroll;
+        }
+    }

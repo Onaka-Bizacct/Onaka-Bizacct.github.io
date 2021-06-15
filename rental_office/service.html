@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>LaLaオフィス：Service</title>
+    <link rel="stylesheet" href="CSS/html5reset-1.6.1.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="CSS/header-footer.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="service" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a id="head" href="index.html"><img src="./images/companylogo.png" alt="会社ロゴ"></a></h1>
+
+            <div class="drawer">
+                <!-- ハンバーガーメニュー部分 -->
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input type="checkbox" id="drawer-check" class="drawer-hidden">
+
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer-check" class="drawer-open"><span></span></label>
+
+                <nav class="drawer-content">
+                    <ul id="main-nav">
+                        <li class="drawer-item"><a href="information.html">information</a>
+                            <ul>
+                                <li><a href="#">NEWS</a></li>
+                                <li><a href="#">施設情報</a></li>
+                                <li><a href="#">コラム</a></li>
+                                <li><a href="#">キャンペーン情報</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item"><a href="about.html">About</a>
+                            <ul>
+                                <li><a href="#">会社概要</a></li>
+                                <li><a href="#">代表挨拶</a></li>
+                                <li><a href="#">沿革</a></li>
+                                <li><a href="#">拠点一覧</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item"><a href="service.html">service</a>
+                            <ul>
+                                <li><a href="#option-title">オプションサービス</a></li>
+                                <li><a href="#concierge-title">コンシェルジュ付帯サービス</a></li>
+                                <li><a href="#free-title">無料サービス</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item"><a href="price.html">price</a>
+                            <ul>
+                                <li><a href="#">レンタルオフィス</a></li>
+                                <li><a href="#">シェアオフィス</a></li>
+                                <li><a href="#">コワーキングスペース</a></li>
+                            </ul>
+                        </li>
+                        <li class="drawer-item" id="preview-item"><a href="preview.html">内見予約</a></li>
+                        <li class="drawer-item" id="contact-item"><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--/.drawer-->
+        </header>
+
+        <div class="wrapper">
+            <h2 class="page-title">service</h2>
+        </div>
+    </div>
+
+    <main>
+        <section class="service-content wrapper">
+            <section id="cost">
+                <h3>初期費用（入会金）と月額使用料、共益費について</h3>
+                <p>当社の運営するレンタルオフィスの初期費用は合計60,000円となります。併せて、月額契約の方は月額料金、年額契約の方は年額料金、そして共栄費が必要となります。</p>
+                <div id="shoki">
+                    <div>
+                        <p>入会金</p>
+                        <p class="simulation">50,000円</p>
+                    </div>
+                    <p>+</p>
+                    <div>
+                        <p>清掃費</p>
+                        <p class="simulation">10,000円</p>
+                    </div>
+                    <p>=</p>
+                    <div>
+                        <p>初期費用</p>
+                        <p class="simulation" id="hiyou">60,000円</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="service-detail">
+                <div id="service-intro">
+                    <h3>サービス内容</h3>
+                    <p>LaLaオフィスのレンタルオフィスは、無料でご利用いただけるサービスに加え、多様なオプションサービス(有料)もご用意いたしております。また、コンシェルジュ付き施設限定の特別なサービスもございます。カスタマイズすることで、ご自身がより働きやすい環境にしていただくことが可能です。※自習室でご契約の方は一部サービスがご利用になれません。</p>
+                </div>
+                <!----------------------オプションサービスの項目----------------------->
+                <div id="all-service">
+                    <div class="option-service" id="option-title">
+                        <h3>オプションサービス（有料）</h3>
+                        <p>OPTION SERVICE</p>
+                    </div>
+                    <div id="option">
+                        <div class="option">
+                            <div class="imgWrap">
+                                <div class="imgEff">
+                                    <img src="./images/coworking-space.jpg" alt="コワーキングスペース">
+                                </div>
+                            </div>
+                            <p>月額10,000円で当社運営のコワーキングスペース「LaLaComfort」を全拠点でご利用できます。ご契約のレンタルオフィスと全国に広がるコワーキングスペースを併用することで、新たなシナジーが生まれること間違いなしです。</p>
+                            <div class="optionlink"><a href="">LaLaComfortについて<i class="fas fa-arrow-circle-right"></i></a></div>
+                        </div>
+                        <div class="option">
+                            <div class="imgWrap2">
+                                <div class="imgEff2">
+                                    <img src="./images/meeting-room.jpg" alt="コワーキングスペース">
+                                </div>
+                            </div>
+                            <p>事前予約制の会議室をご用意しました。15分単位で100円～ご利用いただけます。レンタルオフィス「LaLaオフィス」とコワーキングスペース「LaLaComfort」の会議室がどこでも自由に使えます。</p>
+                            <div class="optionlink"><a href="">会議室について<i class="fas fa-arrow-circle-right"></i></a></div>
+                        </div>
+                    </div>
+                    <!-------------------コンシェルジュサービスの項目-------------------->
+                    <div class="concierge-service" id="concierge-title">
+                        <h3>コンシェルジュ付帯施設のサービス</h3>
+                        <p>CONCIERGE SERVICE</p>
+                    </div>
+                    <div id="concierge">
+                        <div class="con">
+                            <img src="./images/service-icons/box.png" alt="宅配便">
+                            <h4>宅配便受取・保管</h4>
+                            <p>入居者様宛の書留郵便・宅配便の受け取りを代理で行い、メールにてご連絡致します。</p>
+                            <p><span>1,000円/月</span></p>
+                        </div>
+                        <div class="con">
+                            <img src="./images/service-icons/printer.png" alt="コピー機・プリンター">
+                            <h4>コピー・プリント・スキャン</h4>
+                            <p>頂いたデータをコピー、プリント、スキャンいたします。</p>
+                            <p><span>白黒10円/枚｜カラー50円/枚</span></p>
+                        </div>
+                        <div class="con">
+                            <img src="./images/service-icons/tea.png" alt="お茶出し">
+                            <h4>お茶出しサービス</h4>
+                            <p>会議室やレセプションブースをご利用の方にコンシェルジュがお飲み物をご提供いたします。</p>
+                            <p><span>無料</span></p>
+                        </div>
+                        <div class="con">
+                            <img src="./images/service-icons/tools.png" alt="道具類">
+                            <h4>各種備品レンタル</h4>
+                            <p>事務用品から清掃用品まで、幅広く貸出いたします。</p>
+                            <p><span>無料</span></p>
+                        </div>
+                    </div>
+                    <!-------------------無料サービスの項目-------------------->
+                    <div class="free-service" id="free-title">
+                        <h3>無料サービス</h3>
+                        <p>FREE SERVICE</p>
+                    </div>
+                    <div id="free">
+                        <div class="tada">
+                            <img src="./images/service-icons/memo.png" alt="登記簿">
+                            <h4>登記</h4>
+                            <p>ご契約の拠点で法人登記を行うことが可能です。拠点を構えることで、会社の信用にも繋がります。</p>
+                        </div>
+                        <div class="tada">
+                            <img src="./images/service-icons/post.png" alt="郵便ポスト">
+                            <h4>ポスト</h4>
+                            <p>お客様専用の郵便ポストが付属されております。※一部、別契約（有料）となる拠点もございます。</p>
+                        </div>
+                        <div class="tada"><img src="./images/service-icons/map.png" alt="地図">
+                            <h4>住所利用</h4>
+                            <p>個人事業主や新規法人起ち上げ予定の方など、ビジネス用に拠点の住所をご利用いただくことが可能です。</p>
+                        </div>
+                        <div class="tada"><img src="./images/service-icons/nameplate.png" alt="社名盤">
+                            <h4>社名盤</h4>
+                            <p>社名盤がある拠点については、当社にて社名のネームを印刷、貼り付けを行います。</p>
+                        </div>
+                        <div class="tada"><img src="/images/service-icons/water.png" alt="蛇口">
+                            <h4>光熱費</h4>
+                            <p>当社のレンタルオフィスは使用料・共益費に含まれています。お客様へのご請求はございません。</p>
+                        </div>
+                        <div class="tada"><img src="./images/service-icons/internet.png" alt="インターネット">
+                            <h4>インターネット通信料</h4>
+                            <p>全拠点インターネット完備で使い放題。使用料・共益費にインターネット利用料は含まれております。</p>
+                        </div>
+                        <div class="tada"><img src="./images/service-icons/phone.png" alt="受話器">
+                            <h4>受付電話</h4>
+                            <p>エントランスに受付電話が設置されている拠点では、事前に登録した電話番号に転送されるサービスを行っております。来客時やお荷物の受取の時に便利です。</p>
+                        </div>
+                        <div class="tada"><img src="./images/service-icons/shuffle.png" alt="シャッフルアイコン">
+                            <h4>借り増しや移転</h4>
+                            <p>当社が運営する拠点内の移動や借り増しをされる場合は、入会金は不要です。但し、清掃料10,000円（税別）が必要です。</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="wrapper">
+            <a href="index.html"><img src="./images/companylogo.png" alt="会社ロゴ"></a>
+            <ul class="footer-menu">
+                <li>
+                    <h4><a href="information.html">Infomation</a></h4>
+                    <ul>
+                        <li>NEWS</li>
+                        <li>施設情報</li>
+                        <li>コラム</li>
+                        <li>キャンペーン情報</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4><a href="about.html">About</a></h4>
+                    <ul>
+                        <li>会社概要</li>
+                        <li>沿革</li>
+                        <li>拠点一覧</li>
+                        <li><a href="recruit.html">採用情報</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4><a href="service.html">Service</a></h4>
+                    <ul>
+                        <li>オプションサービス</li>
+                        <li>コンシェルジュサービス</li>
+                        <li>無料サービス</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4><a href="price.html">Price</a></h4>
+                    <ul>
+                        <li>レンタルオフィス</li>
+                        <li>シェアオフィス</li>
+                        <li>コワーキングスペース</li>
+                        <li>会議室</li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <div class="footer-sub">
+                <p><a href="policy.html">プライバシーポリシー</a></p>
+                <p><a href="TOS.html">利用規約</a></p>
+                <p><a href="contact.html">お問い合わせ</a></p>
+            </div>
+            <p><small>&copy;2019 LaLa Office All Rights Reserved.</small></p>
+        </div>
+    </footer>
+
+    <!--ソーシャルリンクボタン-->
+    <div class="cp_snslink11">
+        <nav class="cp_link_list">
+            <input type="checkbox" href="#" class="cp_open" id="cp_toggle03" />
+            <label class="cp_open_btn" for="cp_toggle03">
+                <i class="fas fa-share-alt share-icon"></i>
+            </label>
+            <a class="cp_link facebook" href="#"><i class="fab fa-facebook-f fa-1x"></i></a>
+            <a class="cp_link twitter" href="#"><i class="fab fa-twitter fa-1x"></i></a>
+            <a class="cp_link google" href="#"><i class="fab fa-google-plus-g fa-1x"></i></a>
+            <a class="cp_link instagram" href="#"><i class="fab fa-instagram fa-1x"></i></a>
+        </nav>
+    </div>
+
+</body></html>
