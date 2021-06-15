@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackPack.COM</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./CSS/common.css">
+    <link rel="stylesheet" href="./CSS/style2.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>BackPack.COM</h1>
+        <nav class="main-nav">
+            <ul>
+                <li class="nav-menu"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-menu"><a href="products.html" class="nav-link">PRODUCTS</a>
+                    <ul class="pulldown">
+                        <li><a href="#">DayPack</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Shoulder/Waist</a></li>
+                        <li><a href="#">Tote</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul>
+                </li>
+                <li class="nav-menu"><a href="#" class="nav-link">ABOUT</a>
+                    <ul class="pulldown">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="info.html">News/Blog</a></li>
+                        <li><a href="access.html">Access</a></li>
+                    </ul>
+                </li>
+                <li class="nav-menu"><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ハンバーガーメニューのアイコン -->
+    <div id="hamburger">
+        <span class="inner_line" id="line1"></span>
+        <span class="inner_line" id="line2"></span>
+        <span class="inner_line" id="line3"></span>
+    </div>
+
+    <main>
+        <div class="main-visual" id="products-main">
+            <h2>Product</h2>
+        </div>
+        <div class="wrapper" id="product-wrapper">
+            <div class="product-container">
+                <section class="product-image">
+                </section>
+                <section class="product-info">
+                    <h3 class="product-title">DAY PACK</h3>
+                    <p class="product-category">DayPack</p>
+                    <p class="product-price">¥12000</p>
+                    <div class="cart-btn link-btn"><a href="#">カートに追加</a></div>
+                    <div class="favorite-btn link-btn"><a href="#">&#9825;お気に入り登録</a></div>
+
+                    <p class="definition">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dignissimos
+                        molestias. Natus inventore possimus in eum pariatur suscipit, cumque quam non iure laborum? Cum
+                        tenetur expedita neque culpa sit iusto!</p>
+                </section>
+            </div>
+
+            <div class="tab">
+                <!--  タブメニュー  -->
+                <ul class="tab-menu">
+                    <li class="tab-item active-tab">Features</li>
+                    <li class="tab-item">Specs</li>
+                    <li class="tab-item">Gallery</li>
+                </ul><!-- /.tab_menu -->
+
+                <!--  コンテンツ  -->
+                <div class="tab-box">
+                    <div class="tab-content show">Features</div>
+                    <div class="tab-content">Specs</div>
+                    <div class="tab-content">Gallery</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-container">
+            <li>
+                <h4 class="footer-title accordion-title">Products</h4>
+                <ul class="footer-content accordion-content">
+                    <li><a href="#">バックパック</a></li>
+                    <li><a href="#">ビジネスバッグ</a></li>
+                    <li><a href="#">ショルダーバック</a></li>
+                    <li><a href="#">トートバッグ</a></li>
+                    <li><a href="#">ダッフル</a></li>
+                    <li><a href="#">アクセサリー</a></li>
+                    <li><a href="#">その他</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4 class="footer-title accordion-title">About</h4>
+                <ul class="footer-content accordion-content">
+                    <li><a href="info.html">News/Blog</a></li>
+                    <li><a href="access.html">店舗アクセス</a></li>
+                    <li><a href="#">オンラインストア</a></li>
+                    <li><a href="history.html">沿革</a></li>
+                    <li><a href="outline.html">会社概要</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4 class="footer-title accordion-title">Help</h4>
+                <ul class="footer-content accordion-content">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">注文と配送</a></li>
+                    <li><a href="#">返品・保証</a></li>
+                    <li><a href="#">サイズガイド</a></li>
+                    <li><a href="#">会員規約</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4 class="footer-title accordion-title">Contact Us</h4>
+                <ul class="footer-content accordion-content">
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                    <li><a href="#">コールセンター</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div id="bottom">
+            <div class="policy">
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="#">特定商取引法に基づく表示</a>
+            </div>
+            <p>(C) BackPack.COM All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div id="scroll-top"></div>
+
+    <script src="./Script/common.js"></script>
+    <script src="./Script/product.js"></script>
+</body>
+
+</html>

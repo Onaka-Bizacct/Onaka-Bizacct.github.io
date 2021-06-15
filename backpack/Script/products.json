@@ -1,0 +1,394 @@
+[
+    {
+        "title": "DayPack A",
+        "price": 12000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack (1).svg"
+    },
+    {
+        "title": "DayPack B",
+        "price": 12000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack (2).svg"
+    },
+    {
+        "title": "DayPack C",
+        "price": 12000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack (3).svg"
+    },
+    {
+        "title": "DayPack D",
+        "price": 12000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack (4).svg"
+    },
+    {
+        "title": "DayPack E",
+        "price": 12000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack (5).svg"
+    },
+    {
+        "title": "DayPack F",
+        "price": 15000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack2 (1).svg"
+    },
+    {
+        "title": "DayPack G",
+        "price": 15000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack2 (2).svg"
+    },
+    {
+        "title": "DayPack H",
+        "price": 15000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack2 (3).svg"
+    },
+    {
+        "title": "DayPack I",
+        "price": 15000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack2 (4).svg"
+    },
+    {
+        "title": "DayPack J",
+        "price": 15000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack2 (5).svg"
+    },
+    {
+        "title": "DayPack K",
+        "price": 11000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack3 (1).svg"
+    },
+    {
+        "title": "DayPack L",
+        "price": 11000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack3 (2).svg"
+    },
+    {
+        "title": "DayPack M",
+        "price": 11000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack3 (3).svg"
+    },
+    {
+        "title": "DayPack N",
+        "price": 11000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack3 (4).svg"
+    },
+    {
+        "title": "DayPack O",
+        "price": 11000,
+        "category": "everyday",
+        "type": "dayPack",
+        "image": "./Images/bags/daypack3 (5).svg"
+    },
+    {
+        "title": "Business Bag A",
+        "price": 17000,
+        "category": "business",
+        "type": "business",
+        "image": "./Images/bags/business (1).svg"
+    },
+    {
+        "title": "Business Bag B",
+        "price": 17000,
+        "category": "business",
+        "type": "business",
+        "image": "./Images/bags/business (2).svg"
+    },
+    {
+        "title": "Business Bag C",
+        "price": 17000,
+        "category": "business",
+        "type": "business",
+        "image": "./Images/bags/business (3).svg"
+    },
+    {
+        "title": "Business Bag D",
+        "price": 15000,
+        "category": "business",
+        "type": "business",
+        "image": "./Images/bags/business2 (1).svg"
+    },
+    {
+        "title": "Business Bag E",
+        "price": 15000,
+        "category": "business",
+        "type": "business",
+        "image": "./Images/bags/business2 (2).svg"
+    },
+    {
+        "title": "Business Bag F",
+        "price": 15000,
+        "category": "business",
+        "type": "business",
+        "image": "./Images/bags/business2 (3).svg"
+    },
+    {
+        "title": "Shoulder Bag A",
+        "price": 8000,
+        "category": "everyday",
+        "type": "shoulder/waist",
+        "image": "./Images/bags/shoulder (1).svg"
+    },
+    {
+        "title": "Shoulder Bag B",
+        "price": 8000,
+        "category": "everyday",
+        "type": "shoulder/waist",
+        "image": "./Images/bags/shoulder (2).svg"
+    },
+    {
+        "title": "Shoulder Bag C",
+        "price": 8000,
+        "category": "everyday",
+        "type": "shoulder/waist",
+        "image": "./Images/bags/shoulder (3).svg"
+    },
+    {
+        "title": "Shoulder Bag D",
+        "price": 8000,
+        "category": "everyday",
+        "type": "shoulder/waist",
+        "image": "./Images/bags/shoulder (4).svg"
+    },
+    {
+        "title": "Shoulder Bag E",
+        "price": 8000,
+        "category": "everyday",
+        "type": "shoulder/waist",
+        "image": "./Images/bags/shoulder (5).svg"
+    },
+    {
+        "title": "Shoulder Bag F",
+        "price": 8000,
+        "category": "everyday",
+        "type": "shoulder/waist",
+        "image": "./Images/bags/shoulder (6).svg"
+    },
+    {
+        "title": "Tote Bag A",
+        "price": 7000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote (1).svg"
+    },
+    {
+        "title": "Tote Bag B",
+        "price": 7000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote (2).svg"
+    },
+    {
+        "title": "Tote Bag C",
+        "price": 7000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote (3).svg"
+    },
+    {
+        "title": "Tote Bag D",
+        "price": 7000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote (4).svg"
+    },
+    {
+        "title": "Tote Bag E",
+        "price": 7000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote (5).svg"
+    },
+    {
+        "title": "Tote Bag F",
+        "price": 5000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote2 (1).svg"
+    },
+    {
+        "title": "Tote Bag G",
+        "price": 5000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote2 (2).svg"
+    },
+    {
+        "title": "Tote Bag H",
+        "price": 5000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote2 (3).svg"
+    },
+    {
+        "title": "Tote Bag I",
+        "price": 5000,
+        "category": "everyday",
+        "type": "tote",
+        "image": "./Images/bags/tote2 (4).svg"
+    },
+    {
+        "title": "BackPack A",
+        "price": 18000,
+        "category": "mountain",
+        "type": "backpack",
+        "image": "./Images/bags/backpack (1).svg"
+    },
+    {
+        "title": "BackPack B",
+        "price": 18000,
+        "category": "mountain",
+        "type": "backpack",
+        "image": "./Images/bags/backpack (2).svg"
+    },
+    {
+        "title": "BackPack C",
+        "price": 18000,
+        "category": "mountain",
+        "type": "backpack",
+        "image": "./Images/bags/backpack (3).svg"
+    },
+    {
+        "title": "BackPack D",
+        "price": 18000,
+        "category": "mountain",
+        "type": "backpack",
+        "image": "./Images/bags/backpack (4).svg"
+    },
+    {
+        "title": "BackPack E",
+        "price": 18000,
+        "category": "mountain",
+        "type": "backpack",
+        "image": "./Images/bags/backpack (5).svg"
+    },
+    {
+        "title": "BackPack G",
+        "price": 20000,
+        "category": "travel",
+        "type": "backpack",
+        "image": "./Images/bags/backpack2 (1).svg"
+    },
+    {
+        "title": "BackPack H",
+        "price": 20000,
+        "category": "travel",
+        "type": "backpack",
+        "image": "./Images/bags/backpack2 (2).svg"
+    },
+    {
+        "title": "BackPack I",
+        "price": 20000,
+        "category": "travel",
+        "type": "backpack",
+        "image": "./Images/bags/backpack2 (3).svg"
+    },
+    {
+        "title": "BackPack J",
+        "price": 20000,
+        "category": "travel",
+        "type": "backpack",
+        "image": "./Images/bags/backpack2 (4).svg"
+    },
+    {
+        "title": "BackPack K",
+        "price": 20000,
+        "category": "travel",
+        "type": "backpack",
+        "image": "./Images/bags/backpack2 (5).svg"
+    },
+    {
+        "title": "Duffle A",
+        "price": 14000,
+        "category": "travel",
+        "type": "duffle",
+        "image": "./Images/bags/duffle (1).svg"
+    },
+    {
+        "title": "Duffle B",
+        "price": 14000,
+        "category": "travel",
+        "type": "duffle",
+        "image": "./Images/bags/duffle (2).svg"
+    },
+    {
+        "title": "Accessory A",
+        "price": 10000,
+        "category": "business",
+        "type": "accessories",
+        "image": "./Images/bags/accessory (1).svg"
+    },
+    {
+        "title": "Accessory B",
+        "price": 10000,
+        "category": "business",
+        "type": "accessories",
+        "image": "./Images/bags/accessory (2).svg"
+    },
+    {
+        "title": "Accessory C",
+        "price": 10000,
+        "category": "business",
+        "type": "accessories",
+        "image": "./Images/bags/accessory (3).svg"
+    },
+    {
+        "title": "Accessory D",
+        "price": 8500,
+        "category": "everyday",
+        "type": "accessories",
+        "image": "./Images/bags/accessory2 (1).svg"
+    },
+    {
+        "title": "Accessory E",
+        "price": 8500,
+        "category": "everyday",
+        "type": "accessories",
+        "image": "./Images/bags/accessory2 (2).svg"
+    },
+    {
+        "title": "Accessory F",
+        "price": 8500,
+        "category": "everyday",
+        "type": "accessories",
+        "image": "./Images/bags/accessory2 (3).svg"
+    },
+    {
+        "title": "Other A",
+        "price": 6500,
+        "category": "everyday",
+        "type": "others",
+        "image": "./Images/bags/others(1).svg"
+    },
+    {
+        "title": "Other B",
+        "price": 6500,
+        "category": "everyday",
+        "type": "others",
+        "image": "./Images/bags/others(2).svg"
+    }
+]

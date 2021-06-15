@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+:root {
+    --primaryColor: #00aad6;
+    --mainWhite: #fff;
+    --subwhite: #fafafa;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+}
+
+/*products.html*/
+#products-main {
+    background-image: url(../Images/bg/marjan-blan-marjanblan-0E3LJNZ477s-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: soft-light;
+}
+#products-wrapper {
+    display: flex;
+}
+.section {
+    background-color: var(--mainWhite);
+}
+#category {
+    min-width: 20%;
+    height: 50vh;
+    background-color: var(--mainGrey);
+}
+#products {
+    min-width: 80%;
+    background-color: var(--mainGrey);
+}
+
+/*カテゴリーソートボタン*/
+#category dl {
+    cursor: pointer;
+}
+.sortBtn.is-activated {
+    color: var(--mainWhite);
+    background-color: var(--primaryColor);
+}
+.is-hidden {
+        display: none;
+    }
+
+.products-container {
+    height: auto;
+    margin: 10px;
+    padding: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+.product {
+    padding: 5px;
+    background-color: var(--mainWhite);
+    text-align: center;
+    border-radius: 5px;
+}
+.product-img {
+    max-height: 200px;
+}
+
+
+/*product.html*/
+.product-container {
+    display: flex;
+}
+.product-image,
+.product-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-info {
+    line-height: 1.8;
+}
+.product-image img {
+    max-height: 400px;
+}
+.product-title {
+    font-size: 1.5rem;
+}
+.product-category {
+    font-size: .75rem;
+}
+.favorite-btn a {
+    background-color: var(--mainWhite);
+    color: var(--mainBlack);
+    border: 1px solid black;
+}
+.favorite-btn a:hover {
+    background-color: var(--mainBlack);
+    color: var(--mainWhite);
+    border: 1px solid black;
+}
+
+@media (max-width:600px) {
+    .product-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+}
+.product-image,
+.product-info {
+    width: 100%;
+    margin-top: 10px;
+}
+.product-info {
+    line-height: 1.5;
+}
+.product-image img {
+    max-height: 300px;
+}
+}
+
+/*contact.html*/
+#contact-main {
+    background-image: url(../Images/bg/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: soft-light;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.form-table {
+    max-width: 800px;
+}
+.form-table th {
+    width: 40%;
+    padding: 5px 0;
+}
+.form-table td {
+    width: 60%;
+}
+.form-table td input {
+    width: 100%;
+    line-height: 1.8;
+}
+.form-table td input:focus,
+.form-table td select:focus,
+.form-table td textarea:focus {
+    border: 2px solid var(--primaryColor);
+    outline: 0;
+    box-sizing: border-box;
+}
+.required {
+    background-color: red;
+    color: var(--mainWhite);
+    padding: 0 2px;
+    margin-left: 5px;
+}
+.optional {
+    border: 1px solid var(--mainBlack);
+    padding: 0 2px;
+    margin-left: 5px;
+}
+@media (max-width:800px) {
+.form-table {
+    max-width: 800px;
+}
+.form-table th {
+    width: 100%;
+    padding: 5px;
+    display: block;
+}
+.form-table td {
+    display: block;
+    width: 100%;
+}
+}
